@@ -68,7 +68,8 @@ namespace _2DGameLibrary
 
         public void Combat(Creature combatant1, Creature combatant2)
         {
-            while (World.Instance.WorldObjects.Contains(combatant2))
+            
+            while (World.Instance.WorldObjects.Contains(combatant2) && World.Instance.WorldObjects.Contains(combatant1))
             {
                 combatant2.ReceiveHit(combatant1.DealDamage());
                 if (World.Instance.WorldObjects.Contains(combatant2))
