@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DGameLibrary", "2DGameLibrary.csproj", "{B0F9B41D-FA08-4FAD-BAAD-93E3ACDBDC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameImplementExample", "..\GameImplementExample\GameImplementExample.csproj", "{F1C676DC-A1D3-4172-A7F7-E3673B58F231}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0F9B41D-FA08-4FAD-BAAD-93E3ACDBDC9E} = {B0F9B41D-FA08-4FAD-BAAD-93E3ACDBDC9E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0F9B41D-FA08-4FAD-BAAD-93E3ACDBDC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F9B41D-FA08-4FAD-BAAD-93E3ACDBDC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F9B41D-FA08-4FAD-BAAD-93E3ACDBDC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F9B41D-FA08-4FAD-BAAD-93E3ACDBDC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C676DC-A1D3-4172-A7F7-E3673B58F231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C676DC-A1D3-4172-A7F7-E3673B58F231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C676DC-A1D3-4172-A7F7-E3673B58F231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C676DC-A1D3-4172-A7F7-E3673B58F231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
